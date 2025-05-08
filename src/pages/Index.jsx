@@ -1,5 +1,5 @@
 import React from 'react'
-import foto from '../../public/foto-portfolio.png'
+import foto from '../images/javi.jpg'
 import { Link } from 'react-router-dom';
 
 export const Index = () => {
