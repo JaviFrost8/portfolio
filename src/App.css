@@ -474,6 +474,7 @@ textarea:focus{
 
   header{
     height: 120px;
+    z-index: 1;
   }
 
   nav ul {
@@ -499,6 +500,12 @@ textarea:focus{
   .projects-container {
     flex-direction: column;
     gap: 30px;
+  }
+
+  .projects-title{
+    display: flex;
+    align-items: center;
+    text-align: center;
   }
 
   .ilustration img {
