@@ -423,3 +423,90 @@ textarea:focus{
 .other-contact ul li{
   margin: 10px 0;
 }
+
+@media (max-width: 1024px) {
+  body{
+    overflow-x: hidden;
+  }
+
+  .container,
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .container img {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .text-container {
+    margin: 0;
+  }
+
+  .about,
+  .contact-text {
+    width: 90%;
+  }
+
+  .form-container input[type='text'],
+  .form-container input[type='email'],
+  .form-container textarea {
+    width: 90%;
+  }
+
+  .project-card {
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .big-container{
+    margin: 100px 0 30px 0;
+  }
+
+  .text-container.fade-in{
+    margin-left: 0;
+  }
+
+  header{
+    height: 120px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .text1 {
+    font-size: 40px;
+  }
+
+  .tools {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .projects-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .ilustration img {
+    width: 90%;
+  }
+
+  .container::after,
+  .ilustration::after {
+    display: none;
+  }
+}
